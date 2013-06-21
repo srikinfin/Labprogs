@@ -1,0 +1,76 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" HTTP-EQUIV="REFRESH" CONTENT="20" />
+<title>learn static HTML for beginners</title>
+
+<script language="javascript">
+function display()
+{
+var result = window.open("about:blank","view");
+var temp = result.document;
+temp.write(document.getElementById('code').value);
+temp.close();
+return false;
+}
+</script>
+
+<style type="text/css">
+
+<!--
+.result_output {
+color: #000;
+background-color: #FFF;
+height: 400px;
+width: 100%;
+border: 1px solid #C3C3C3;
+}
+.code_input {
+color: #000;
+background-color: #FFF;
+height: 400px;
+width: 100%;
+border: 1px solid #C3C3C3;
+}
+body {
+color: #000;
+background-color: #FFF;
+margin-top: 0px;
+margin-right: 4px;
+margin-bottom: 4px;
+margin-left: 4px;
+}
+.maintable {
+color: #000;
+background-color: #E5EECC;
+width: 100%;
+margin-left: 0px;
+border: 1px solid #C3C3C3;
+}
+.result_header {
+font-family: Verdana, Geneva, sans-serif;
+font-size: 90%;
+color: #617F10;
+margin-top: 0px;
+margin-bottom: 12px;
+}
+-->
+</style></head>
+
+<body>
+
+<table width="100%" border="0" cellpadding="3" cellspacing="3" class="maintable">
+<tr>
+<td width="50%" height="100%" >
+<input name="s1" type="submit" id="s1" style="margin-bottom:5px;font-family:Verdana,
+Geneva, sans-serif" onmouseover="display()" value="Edit and Hover over me >>" />
+
+<textarea name="code" cols="421" rows="210" class="code_input" id="code"
+wrap="soft"></textarea></td>
+
+<td><p class="result_header">Result :</p>
+<iframe class="result_output" frameborder="0" name="view"
+src="about:blank"></iframe></td>
+</tr>
+</table>
+</body>
+</html>
