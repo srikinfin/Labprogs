@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+ <?xml-stylesheet type="text/css" href="lab6a.css"?>
+   
+   
+   <student> Program 6a 
+     <stud-info>Student Information </stud-info>
+     
+     <stud1>
+       <usn>USN: 1aa11is001</usn>
+       <name>Name: Name1 </name>
+       <noc>College: College1</noc>
+       <branch>Branch: Branch1</branch>
+       <yoj>YOJ:2011 </yoj>
+       <eid>Email: name1@college1.com</eid>
+     </stud1>
+     
+     
+     <stud2>
+       <usn>USN: 1aa11is002 </usn>
+       <name>Name: Name2 </name>
+       <noc>College: College2</noc>
+       <branch>Branch: Branch2</branch>
+       <yoj>YOJ:2012</yoj>
+       <eid>Email: name2@college2.com</eid>
+     </stud2>
+     
+     <stud3>
+       <usn>USN: 1aa11is003</usn>
+       <name>Name: Name3</name>
+       <noc>College: College3</noc>
+       <branch>Branch: Branch3</branch>
+       <yoj>YOJ: 2013</yoj>
+       <eid>Email: name3@college3.com</eid>
+     </stud3>
+     
+   </student>
+   

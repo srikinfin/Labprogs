@@ -1,0 +1,12 @@
+<html>
+<head><title> </title>
+<script language="javascript" src=" "></script>
+<link rel="stylesheet" type="text/css" src=" " />
+</head>
+<body>
+<form action="lab13b.php" method="POST">
+Enter the name of person <input type=text name=name>
+<input type="submit"/>
+</body>
+</html>
+

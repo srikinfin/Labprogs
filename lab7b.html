@@ -1,0 +1,25 @@
+<html>
+<head><title> </title>
+<script language="javascript" src=" "></script>
+<link rel="stylesheet" type="text/css" href=" " />
+</head>
+<form action="http://localhost/cgi-bin/lab7b.pl">
+	Please enter a unix command<br />
+	<input type=text name="unixcommand" />
+	<input type=button value="Submit Command" />
+</form>
+<pre><hr/>
+#!/usr/bin/perl
+
+use CGI ":standard";
+print header;
+print start_html;
+
+$cmd=param('unixcommand');
+system($cmd);
+
+print end_html;
+<hr/>
+</pre>
+</html>
+

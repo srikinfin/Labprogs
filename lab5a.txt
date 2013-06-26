@@ -1,0 +1,12 @@
+<html>
+<head><title> </title>
+<link rel=stylesheet type="text/css" href="lab5.css" />
+<script language="javascript" src=lab5a.js> </script>
+</head>
+<body>
+<p class="para1" id=stack1 onmouseover="onTop('stack1')"> Para 1 </p>
+<p class="para2" id=stack2 onmouseover="onTop('stack2')"> Para 2 </p>
+<p class="para3" id=stack3 onmouseover="onTop('stack3')"> Para 3 </p>
+
+</body>
+</html>

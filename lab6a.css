@@ -1,0 +1,6 @@
+stud-info{ display: block; color:blue; font-size:200%}
+student {  display: block; color:red;}
+stud1    { display: block; color:cyan;}
+stud2	 { display: block; color:gray;}
+stud3	 { display: block; color:green;}
+usn,name,noc,branch,yoj,eid {display: block;}

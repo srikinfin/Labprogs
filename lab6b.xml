@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="lab6b.xsl"?>
+<stud>
+  <title>Program 6b </title>
+  <usn>1aa11is001</usn>
+  <name>Name1</name>
+  <coll>College1</coll>
+  <branch>Brach1</branch>
+  <yoj>2011</yoj>
+  <eid>name1@college1.com</eid>
+</stud>

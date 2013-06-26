@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+    function populate(slct1, slct2) {
+        var s1 = document.getElementById(slct1);
+        var s2 = document.getElementById(slct2);
+        s2.innerHTML = "";
+
+            var pair = s1.value;
+            var checkbox = document.createElement("input");
+            checkbox.type = "checkbox";
+            checkbox.name = pair;
+	    checkbox.id = pair;
+            checkbox.value = pair;
+            s2.appendChild(checkbox);
+    
+            var label = document.createElement('label')
+            label.htmlFor = pair;
+            label.appendChild(document.createTextNode(pair));
+
+            s2.appendChild(label);
+            s2.appendChild(document.createElement("br"));    
+        
+}
+</script>
+</head>
+<body>
+<h2>Dynamic Checkbox Creation</h2>
+<hr />
+Enter a program name:
+
+
+   <input type=text value="" id=slct1 name=slct1 />
+   <input type=button value="Add it" onclick="populate('slct1', 'slct2')"/>
+   
+
+<hr />
+   Choose Options:
+<div id="slct2"></div>
+<hr />
+</body>
+</html>​

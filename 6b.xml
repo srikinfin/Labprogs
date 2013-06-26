@@ -1,0 +1,11 @@
+<?xml version = "1.0"?>
+<!-- xslplane.xml -->
+<?xml-stylesheet type = "text/xsl" href = "6b.xsl" ?>
+<student>
+<USN> 4bd06cs099 </USN>
+<name> Cessna </name>
+<college> BIET </college>
+<branch>CSE</branch>
+<year> 2009 </year>
+<email>abc@gmail.com</email>
+</student>

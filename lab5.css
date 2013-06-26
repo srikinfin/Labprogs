@@ -1,0 +1,29 @@
+.para1{ border:thick solid black;
+	background-color:blue;
+	padding:1in;
+	position:absolute;
+	top:65px;
+	left:3in;
+	z-index:1;
+}	
+
+
+.para2{border:thick solid black;
+	background-color:green;
+	padding:1in;
+	position:absolute;
+	top:75px;
+	left:4in;
+	z-index:2;
+}	
+
+
+
+.para3{border:thick solid black;
+	background-color:gray;
+	padding:1in;
+	position:absolute;
+	top:85px;
+	left:5in;
+	z-index:3;
+}	

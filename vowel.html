@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+</head>
+<body >
+             <h3 >Program includes javascript function to find the position of the left most vowel in the entered string</h3>
+<script type="text/javascript">
+
+             var str= prompt("Enter the String\n","");
+           for(var i=0; i<str.length;i++)
+           {
+               <-- if(str.charAt(i)=='a'||str.charAt(i)=='e'||str.charAt(i)=='i'||str.charAt(i)=='o'||str.charAt(i)=='u') -->
+		if((str.charAt(i))==('a'||'e'||'i'||'o'||'u'))
+                {
+                          document.write("The entered string is: "+str+"<br/>");
+                          document.write("The leftmost vowel is: "+str.charAt(i)+"<br/>");
+                          var pos=i+1;
+                          document.write("The position of the leftmost vowel" +str.charAt(i)+"is:" +pos+"\n");
+                           exit;
+                }
+           }
+           document.write("The entered string is: "+str+"<br/>");
+           document.write("The entered string has no vowels ");
+
+</script>
+
+</body>1
+</html>

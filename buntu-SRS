@@ -1,0 +1,14 @@
+input : program names, single word
+action: add the program name as 'id' value and label value of a form tag,  and...
+	insert this resulting string into a html file, inside its form tag.
+
+misc: dynamically changeable html file 
+
+
+eg;   program name is  ----  guake   ----- entered through a web page form
+
+	and by action, the same web page adds a checkbox of label  guake in itself.
+
+	when checkbox is check and submitted,
+	another modified string containing  "guake" should be sent to another shell script file.
+	as in "sudo apt-get install guake" to a shell script file  "buntu.sh"
